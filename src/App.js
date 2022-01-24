@@ -4,6 +4,7 @@ import AddList from "./components/AddList";
 import CardContainer from "./components/CardContainer";
 import "./app.css";
 import Data from "./data.json";
+import Navbar from "./components/Navbar/Navbar";
 
 const emptList = {
   id: parseInt(Math.random() * 1000),
@@ -18,12 +19,15 @@ function App() {
   const addList = () => setLists([...lists, emptList]);
 
   return (
-    <div className="d-flex overflow-auto p-3">
-      {lists.map((list) => (
-        <CardContainer key={list.id} list={list} />
-      ))}
+    <div className="App">
+      <Navbar />
+      <div className="d-flex overflow-auto p-3">
+        {lists.map((list) => (
+          <CardContainer key={list.id} list={list} />
+        ))}
 
-      <AddList onClick={addList} />
+        <AddList onClick={addList} />
+      </div>
     </div>
   );
 }

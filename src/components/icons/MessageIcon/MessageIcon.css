@@ -1,0 +1,15 @@
+.Message {
+  font-size: 25px;
+}
+
+.badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 5px;
+}
+
+.parent {
+  position: relative;
+  margin-left: 10px;
+}
