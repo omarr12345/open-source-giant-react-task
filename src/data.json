@@ -1,0 +1,118 @@
+{
+  "columns": [
+    {
+      "id": 1,
+      "title": "Col 1",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Title 1",
+          "rate": 2,
+          "cost": 0,
+          "deadline_status": "overdue",
+          "tags": ["Services"]
+        },
+        {
+          "id": 2,
+          "title": "Title 2",
+          "rate": 2,
+          "cost": 500,
+          "deadline_status": "overdue",
+          "tags": ["Services"]
+        },
+        {
+          "id": 3,
+          "title": "Title 3",
+          "rate": 2,
+          "cost": 15000,
+          "deadline_status": "soon",
+          "tags": ["Services"]
+        },
+        {
+          "id": 4,
+          "title": "Title 4",
+          "rate": 2,
+          "cost": 2000,
+          "deadline_status": "soon",
+          "tags": ["Services"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Col 2",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Title 1",
+          "rate": 2,
+          "cost": 0,
+          "deadline_status": "overdue",
+          "tags": ["Services"]
+        },
+        {
+          "id": 2,
+          "title": "Title 2",
+          "rate": 2,
+          "cost": 500,
+          "deadline_status": "overdue",
+          "tags": ["Services"]
+        },
+        {
+          "id": 3,
+          "title": "Title 3",
+          "rate": 2,
+          "cost": 15000,
+          "deadline_status": "soon",
+          "tags": ["Services"]
+        },
+        {
+          "id": 4,
+          "title": "Title 4",
+          "rate": 2,
+          "cost": 2000,
+          "deadline_status": "soon",
+          "tags": ["Services"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Col3",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Title 1",
+          "rate": 2,
+          "cost": 0,
+          "deadline_status": "overdue",
+          "tags": ["Services"]
+        },
+        {
+          "id": 2,
+          "title": "Title 2",
+          "rate": 2,
+          "cost": 500,
+          "deadline_status": "soon",
+          "tags": ["Services"]
+        },
+        {
+          "id": 3,
+          "title": "Title 3",
+          "rate": 2,
+          "cost": 15000,
+          "deadline_status": "safe",
+          "tags": ["Services"]
+        },
+        {
+          "id": 4,
+          "title": "Title 4",
+          "rate": 2,
+          "cost": 2000,
+          "deadline_status": "soon",
+          "tags": ["Services"]
+        }
+      ]
+    }
+  ]
+}

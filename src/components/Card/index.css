@@ -1,0 +1,6 @@
+.cardimg {
+  width: 30px;
+  height: 30px !important;
+  object-fit: cover;
+  object-position: top;
+}

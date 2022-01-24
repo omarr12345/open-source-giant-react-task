@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 12px !important;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-thumb {
+}
+
+body,
+html {
+  background-color: #f9f9f9 !important;
+}
+.color-light {
+  color: #aaa !important;
+}
+
+.dot {
+  width: 5px !important;
+  height: 5px !important;
+  margin-top: 2px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.col-title {
+  margin-bottom: 15px;
+}
+
+.mr-2 {
+  margin-right: 1rem;
+}
+
+.newcolor {
+  height: 13px;
+}
+
+.colors {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.colors:after {
+  display: table;
+}
+
+.totalPrice {
+  float: right;
+  font-weight: bold;
+}
+
+#wrapper {
+  margin-top: 10px;
+}
+
+.checked {
+  color: #ffd905;
+}
